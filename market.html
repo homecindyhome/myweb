@@ -31,7 +31,7 @@
         const response = await fetch(file);
         const text = await response.text();
         document.getElementById(elementId).innerHTML = text;
-        document.getElementById(elementId).scrollIntoView({ behavior: 'smooth' });
+        window.scrollTo(0, 0);
       }
   
       includeHTML('/htmls/market/market_index.html', 'marketindex');
