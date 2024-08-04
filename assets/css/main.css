@@ -2135,6 +2135,10 @@ input, select, textarea {
 			color: inherit;
 		}
 
+	.marketwatch {
+		width: 80%;
+	}
+
 /* XLarge */
 
 	@media screen and (max-width: 1680px) {
@@ -2273,7 +2277,7 @@ input, select, textarea {
 		/* Nav */
 
 			#nav {
-				display: none;
+				display: block;
 			}
 
 		/* Banner */
@@ -2307,6 +2311,10 @@ input, select, textarea {
 
 			#sidebar > :last-child {
 				margin-bottom: 0 !important;
+			}
+
+			.marketwatch {
+				width: 100%;
 			}
 
 		/* Footer */
